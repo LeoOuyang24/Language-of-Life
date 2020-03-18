@@ -1,0 +1,24 @@
+= //assignment operator
+== //1 if two variables are equal, 0 otherwise
+<= //less than or equal
+>= //greater than or equal to
+<
+>
+! //not equal
+
++ //returns the sum of two values
+-
+/
+*
+%
+
+? //runs next line if value isn't 0, otherwise, jump next operand lines
+@ //jump operand number of instructions
+
+
+
+5 9 //returns 5
+x = 5//returns 5 and sets x equal to 5
+y x = 5//returns value of y and sets x equal to 5
+z = y x = 5 //sets x = 5, sets z = y, returns z
+5 ? x = 1 //sets x = 1. If x is not 0, move down 5 instructions.

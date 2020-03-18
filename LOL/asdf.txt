@@ -1,0 +1,10 @@
+x 1 //returns 1
+y 2 //return 2 
+x y = // returns 1 if x = y 0 otherwise
+if x y = 
+x 5
+jmp x:
+_ //ends if statement
+x 6
+x: //represents label and returns memory address. Different from variable x 
+y x: //puts memory address of x: into y

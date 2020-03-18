@@ -1,0 +1,10 @@
+3/12/2020:
+	LOL syntax was reversed before being reverted to it's current form. Reading the language from right to left is actually easier, although it has a slight inefficiency in that numbers have to be reversed before they can be manipulated. 
+
+3/10/2020:
+	LOL operators will NOT all be single-character. Determining whether or not something is an operator or not is easier with just one constant if-elseif-else tree. This also means that <= and >= will be used. over { and }. However, ! will still be used for inequality because if != was used, ! could result from a mutation and have no meaning
+	Program class no longer has an environment member variable. This is because a Program now represents one line of code rather than the entire program. The program's member variables are reset after every line of code while the environment accumulates data over time.
+
+3/9/2020:
+	LOL will not have labels. Labels are too hard to maintain since mutating a label, either in an if statement or a standalone label will cause the code to potentially skip the rest of the code since if a label is not found, the code just keeps searching for it. Instead, branching will be a number of lines.
+	LOL operators will all be single-character. This makes parsing easier.
